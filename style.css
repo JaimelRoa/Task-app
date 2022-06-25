@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    font-family: "Nunito Sans";
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.348)
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.content-app {
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-content-task {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 10px;
+    width: 40%;
+    height: 40%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.task-description {
+    height: 100px;
+    resize: none;
+}
+
+.entry-new-task {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.271)
+}
+
+.task {
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+}
+
+.btn__save {
+    background-color: #1A1A1A;
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+    color: white;
+}
+
+.btn__delete {
+    background-color: #D9534F;
+}
+
+.btn__edit {
+    background-color: #1A1A1A;
+}
+
+.task-content {
+    width: 40%;
+    margin: 0px auto;
+}
+
+.nav {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.137);
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    background-color: #1A1A1A;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
